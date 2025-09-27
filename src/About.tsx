@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./Navbar";
 import { Teams } from "./utils/About";
 import image1 from "./assets/istockphoto-1163919741-612x612.jpg";
@@ -7,9 +6,6 @@ import img2 from './assets/home (1).png'
 import img1 from './assets/multiple-users-silhouette.png'
 import img3 from './assets/home (2).png'
 import img4 from './assets/worker.png'
-import person1 from './assets/portrait-expressive-young-man-wearing-formal-suit (1).jpg'
-import person2 from './assets/happy-african-american-young-man-colorful-shirt-wearing-glasses-looking-camera-smiling-cheerfully.jpg'
-import person3 from './assets/portrait-expressive-young-man-wearing-formal-suit.jpg'
 
 function About() {
   return (
@@ -113,26 +109,7 @@ function About() {
               )
            })} 
             
-            {/* <div className="flex flex-col">
-              <img src={person1} className="m-4" />
-              <h3 className=" ml-4 font-bold">RUBEN AMORIN</h3>
-              <h4 className=" ml-4 text-gray-600">Construction Engineer</h4>
-            </div>
-            <div className="flex flex-col">
-              <img src={person2} className="m-4"/>
-              <h3 className=" ml-4 font-bold">THOMAS PARTEY</h3>
-              <h4 className=" ml-4 text-gray-600">Construction Engineer</h4>
-            </div>
-            <div className="flex flex-col">
-              <img src={person3} className="m-4"/>
-              <h3 className=" ml-4 font-bold">XABI ALONSO</h3>
-              <h4 className=" ml-4 text-gray-600">CIVIL Engineer</h4>
-            </div>
-            <div className="flex flex-col">
-              <img src={person1} className="m-4" />
-              <h3 className=" ml-4 font-bold">CALUM HUDON</h3>
-              <h4 className=" ml-4 text-gray-600">PROJECT Engineer</h4>
-            </div> */}
+            
           </div>
         </div>
       </div>
