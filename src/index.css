@@ -1,6 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+Box sizing rules
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+Remove default margin
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* @import "tailwindcss"; */
 
 

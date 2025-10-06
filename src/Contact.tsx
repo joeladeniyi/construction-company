@@ -2,9 +2,12 @@ import Navbar from './Navbar'
 
 function Contact  ()  {
   return (
-    <main>  
-        <Navbar/>
-   <div className="py-2 px-4 mx-auto max-w-screen-md">
+    <div className='flex flex-col '>  
+        <div className=''>
+          <Navbar />
+          
+        
+   <div className="flex flex-col py-2 px-4 mx-auto max-w-screen-md h-screen  justify-center">
             
             <h2 className="mb-4 text-4xl font-extrabold 
                            text-center text-slate-900">
@@ -89,7 +92,8 @@ function Contact  ()  {
                 </button>
             </form>
         </div>
-        </main>
+        </div>
+        </div>
   )
 }
 

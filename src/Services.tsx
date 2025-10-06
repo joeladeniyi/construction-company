@@ -9,14 +9,14 @@ function Services  () {
   return (
     <main className='h-screen flex flex-col'>
       <Navbar/>
-      <div className='flex flex-col ml-12 text-8xl'>
+      <div className='flex flex-col md:ml-12 md:text-6xl lg:text-8xl text-4xl items-center text-center md:items-start md:text-left'>
         <h1 className='text-gray-500'>SERVICE</h1>
         <h1 className='text-black font-serif font-extrabold'>WE  FOCUS ON </h1>
         <h1 className='text-red-600 font-serif font-extrabold'>QUALITY</h1>
       </div>
-      <div className='grid grid-cols-3 m-12 '>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 m-12 items-center '>
         
-        <div className='shadow-2xl rounded-md'> 
+        <div className='shadow-2xl rounded-md items-center'> 
           <img src={image1} className='h-10 ml-4 w-12'/>
           <h4 className='font-serif text-3xl ml-4'> General</h4>
           <h4 className='font-serif text-3xl ml-4'>Construction </h4>

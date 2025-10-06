@@ -11,26 +11,26 @@ function About() {
   return (
     <main>
       <Navbar />
-      <div className="flex flex-col ml-12 text-8xl">
+      <div className="flex flex-col ml-12 lg:text-8xl  text-4xl items-center">
         <h1 className="text-gray-500">ABOUT</h1>
         <h1 className="text-black font-serif font-extrabold">OUR COMPANY </h1>
       </div>
-      <div className="grid grid-cols-4 m-12">
-        <div className="flex flex-col ">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-4 m-12 items-center text-center md:text-left md:items-start">
+        <div className="flex flex-col sm:items-center sm:text-center lg:items-start  ">
           <h1 className="flex flex-row text-2xl items-center">
             {" "}
             <img src={img1} className="h-5 m-2"/> 200+
           </h1>
           <p className="text-xl text-gray-700"> People work in our company</p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col sm:items-center sm:text-center">
           <h1 className="flex flex-row text-2xl items-center">
             {" "}
             <img src={img2} className="h-5 m-2" /> 5000+
           </h1>
           <p className="text-xl text-gray-700"> Project we've built</p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
           <h1 className="flex flex-row text-2xl items-center">
             {" "}
             <img src={img3} className="h-5 m-2" /> 20+
@@ -45,7 +45,7 @@ function About() {
           <p className="text-xl text-gray-700"> People work in our company</p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2 grid-cols-1 items-center text-center">
         <img src={image1} className="ml-4 mt-6 "  />
         <div>
           <h2 className="m-4 text-gray-500 text-4xl"> OUR MISSION</h2>
@@ -70,7 +70,7 @@ function About() {
           <button className="m-4 bg-slate-900 text-white rounded-sm p-2">Learn More About Us</button>
         </div>
       </div>
-      <div className="grid grid-cols-2 mt-5">
+      <div className="grid md:grid-cols-2 grid-cols-1 items-center text-center mt-5">
         <div>
           <h2 className="m-4 text-gray-500 text-4xl"> OUR MISSION</h2>
           <h2 className="m-4 text-black text-2xl "> OUR STORY</h2>
@@ -94,11 +94,11 @@ function About() {
         </div>
         <img src={image2} />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col sm:items-center text-center md:items-start md:text-center">
         <div className="m-4">
-          <h2 className="m-4 text-gray-500 text-4xl">TEAM</h2>
-          <h2 className="m-4 text-black text-2xl">MEET OUR PROFESSIONALS</h2>
-          <div className="grid grid-cols-4">
+          <h2 className="m-4 text-gray-500 text-4xl lg:text-left">TEAM</h2>
+          <h2 className="m-4 text-black text-2xl lg:text-left">MEET OUR PROFESSIONALS</h2>
+          <div className="grid md:grid-cols-4 grid-cols-2 items-center text-center">
            {Teams.map((person)=>{
               return(
                 <div className="flex flex-col " key={person.id}>

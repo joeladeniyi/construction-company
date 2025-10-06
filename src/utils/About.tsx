@@ -22,13 +22,13 @@ export const Teams : teamstype[]=[{
     src: person2
 },
     {
-    id :2,
+    id :3,
     name: 'XABI ALONSO',
     position : 'Civil Engineer',
     src :person3
 },
 {
-    id :2,
+    id :4,
     name: 'CALUM HUDON',
     position : 'Project Engineer',
     src :  person1
