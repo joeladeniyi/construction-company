@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import { Teams } from "./utils/About";
 import image1 from "./assets/istockphoto-1163919741-612x612.jpg";
 import image2 from "./assets/istockphoto-1158121014-612x612.jpg";
@@ -10,7 +9,7 @@ import img4 from './assets/worker.png'
 function About() {
   return (
     <main>
-      <Navbar />
+      
       <div className="flex flex-col ml-12 lg:text-8xl  text-4xl items-center">
         <h1 className="text-gray-500">ABOUT</h1>
         <h1 className="text-black font-serif font-extrabold">OUR COMPANY </h1>
@@ -52,7 +51,7 @@ function About() {
           <h4 className="m-4 text-black text-2xl">
             OUR GOAL IS TO PROVIDE HIGH QUALITY CONSTRUCTION WORK AND RENOVATION
           </h4>
-          <p className="m-4">
+          <p className="m-4 text-left">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quasi
             placeat dolor culpa perspiciatis? Excepturi odit nam commodi
             laudantium accusamus possimus atque, quam tempora qui omnis dolore
@@ -60,7 +59,7 @@ function About() {
             unde similique architecto.
           </p>
           <br />
-          <p className="m-4">
+          <p className="m-4 text-left">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
             et placeat alias sequi quaerat nostrum aliquam quis commodi adipisci
             enim. Velit totam ipsum assumenda illum nulla ex, esse fugit
@@ -75,7 +74,7 @@ function About() {
           <h2 className="m-4 text-gray-500 text-4xl"> OUR MISSION</h2>
           <h2 className="m-4 text-black text-2xl "> OUR STORY</h2>
           <h4 className="m-4 text-black text-2xl">THE STORY OF THE FOUNDING OF OUR COMPANY</h4>
-          <p className="m-4">
+          <p className="m-4 text-left">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quasi
             placeat dolor culpa perspiciatis? Excepturi odit nam commodi
             laudantium accusamus possimus atque, quam tempora qui omnis dolore
@@ -83,7 +82,7 @@ function About() {
             unde similique architecto.
           </p>
           <br />
-          <p className="m-4">
+          <p className="m-4 text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             aperiam ab mollitia cumque quia eos atque voluptatum cupiditate
             saepe quas? Mollitia amet error accusantium incidunt reprehenderit

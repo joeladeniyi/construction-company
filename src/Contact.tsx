@@ -1,10 +1,8 @@
-import Navbar from './Navbar'
 
 function Contact  ()  {
   return (
     <div className='flex flex-col '>  
         <div className=''>
-          <Navbar />
           
         
    <div className="flex flex-col py-2 px-4 mx-auto max-w-screen-md h-screen  justify-center">

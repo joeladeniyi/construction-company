@@ -1,10 +1,8 @@
-import Navbar from './Navbar'
 import { project } from './utils/Project'
 
 function Projects  () {
   return (
     <main>
-      <Navbar />
             <div className="flex flex-col ml-12 md:text-6xl text-4xl items-center text-center md:text-left md:items-start ">
               <h1 className="text-gray-500 md:text-left ">PROJECT</h1>
               <h1 className="text-slate-900 font-serif font-bold  mt-4">SOME OF OUR BEST WORKS </h1>

@@ -10,7 +10,6 @@ import img2 from  './assets/istockphoto-1212994715-612x612.jpg'
 import img3 from  './assets/istockphoto-1323030556-612x612.jpg'
 import img4  from './assets/istockphoto-1323737466-612x612.jpg'
 import img5  from  './assets/istockphoto-157558590-612x612.jpg'
- import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 function HomePage () {
   const settings = {
@@ -44,8 +43,7 @@ function HomePage () {
   <main className="bg-slate-900 flex flex-col h-screen justify-center">
       
      <div className="">
-          <Navbar/>
-          <Slider {...settings} className="overflow-clip " >
+          <Slider {...settings} className=" " >
         
         <div className="h-80 w-full" >
             <img src={image3} alt="Third image" className=" w-full object-cover" />
